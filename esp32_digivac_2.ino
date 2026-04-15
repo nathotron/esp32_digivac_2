@@ -30,8 +30,8 @@ portMUX_TYPE gWire_MUX = portMUX_INITIALIZER_UNLOCKED;
 //#include <Wire.h>
 #include <floatToString.h>  // https://github.com/tedtoal/floatToString
 
-// 20260410 mySerial1 seems to work fine with custom pin assignment
-// mySerial2 however seemed to TX correctly but not RX. So far as I can tell the assigned RX pin is not set to input mode.
+// 20260410 mySerial2 seems to work fine with custom pin assignment
+// mySerial1 however seemed to TX correctly but not RX. So far as I can tell the assigned RX pin is not set to input mode.
 // In frustration, try a different library
 // Note these are just for communication to the DigiVac sensors.
 #define kUseHardwareSerial 1
